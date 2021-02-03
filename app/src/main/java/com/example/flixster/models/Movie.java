@@ -1,5 +1,12 @@
 package com.example.flixster.models;
 
+import android.widget.ImageView;
+
+import androidx.databinding.BindingAdapter;
+
+import com.bumptech.glide.Glide;
+import com.example.flixster.databinding.ItemMovieBinding;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -7,6 +14,8 @@ import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 @Parcel
 public class Movie
@@ -70,5 +79,11 @@ public class Movie
     public int getMovieID()
     {
         return movieID;
+    }
+
+    @BindingAdapter("getImagePath")
+    public static void getImgURL(ImageView imageView, String url)
+    {
+        Glide.with(imageView.getContext()).load(url).transform(new RoundedCornersTransformation(50,10)).into(imageView);
     }
 }
