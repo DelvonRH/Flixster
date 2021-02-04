@@ -22,14 +22,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="https://github.com/DelvonRH/Flixster/blob/master/FlixsterWalkthrough%233.gif" width=250><br>
-<br>
-<img src="https://github.com/DelvonRH/Flixster/blob/master/FlixsterWalkthrough%234.gif" width=590><br>
-
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+It was difficult to round the corners of the movie poster at first but I managed to do so.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
@@ -53,6 +49,8 @@ Describe any challenges encountered while building the app.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
+
+
 
 ### Notes
 Describe any challenges encountered while building the app.
