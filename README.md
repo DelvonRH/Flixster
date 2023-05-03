@@ -55,8 +55,6 @@ It was difficult to round the corners of the movie poster at first but I managed
 <br>
 <img src="https://github.com/DelvonRH/Flixster/blob/master/FlixsterWalkthrough%232.gif" width=590><br>
 
-### Notes
-Describe any challenges encountered while building the app.
 
 ### Open-source libraries used
 
