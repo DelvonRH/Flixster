@@ -1,4 +1,4 @@
-# Flix
+# Flixster
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 2
@@ -33,7 +33,7 @@ It was difficult to round the corners of the movie poster at first but I managed
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 ---
 
-## Flix Part 1
+## Flixster Part 1
 
 ### User Stories
 
